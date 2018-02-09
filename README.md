@@ -27,7 +27,7 @@ Example:
 const char CRYPTONOTE_NAME[] = "ircoin";
 ```
 
-**2. in src/CMakeList.txt file** - set_property(TARGET daemon PROPERTY OUTPUT_NAME "YOURCOINNAME**d**")
+**2. in src/CMakeList.txt file** - set_property(TARGET daemon PROPERTY OUTPUT_NAME "ircoin**d**")
 
 Example: 
 ```
@@ -115,7 +115,7 @@ const int RPC_DEFAULT_PORT = 18236;
 
 This identifier is used in network packages in order not to mix two different cryptocoin networks. Change all the bytes to random values for your network:
 ```
-const static boost::uuids::uuid CRYPTONOTE_NETWORK = { { 0xA1, 0x1A, 0xA1, 0x1A, 0xA1, 0x0A, 0xA1, 0x0A, 0xA0, 0x1A, 0xA0, 0x1A, 0xA0, 0x1A, 0xA1, 0x1A } };
+const static boost::uuids::uuid CRYPTONOTE_NETWORK = { { 0x20d1, 0x1863, 0x5769, 0x1b5d, 0x1f, 0x43, 0xea, 0x206f, 0x37, 0x57cb, 0x3dcb, 0xa52, 0xfb, 0x19, 0x55, 0x7463 } };
 ```
 
 
